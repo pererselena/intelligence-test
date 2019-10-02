@@ -1,0 +1,279 @@
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+header {
+    background-color: #92d0f9;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Bungee Inline', cursive;
+    font-size: 2.5em;
+}
+
+h2 {
+    font-family: 'Francois One', sans-serif;
+    text-align: center;
+}
+
+main {
+    width: 100%;
+    margin: 0;
+    flex-grow: 1;
+}
+
+p {
+    font-family: 'Noticia Text', serif;
+}
+
+.btn {
+    background: linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
+    background-color: #79bbff;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    border: 1px solid #84bbf3;
+    display: inline-block;
+    cursor: pointer;
+    color: #fff;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #528ecc;
+}
+
+.options {
+    margin: 0.5em;
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.figure {
+    width: 5em;
+    height: 5em;
+    margin: 1em;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 2.5em solid white;
+    border-right: 2.5em solid white;
+    border-bottom: 5em solid transparent;
+}
+
+.content {
+    background-color: white;
+    padding: 2em;
+    margin: 0 auto;
+    width: 80%;
+    border-radius: 30px;
+    color: black;
+}
+
+.flag {
+    margin: 5px;
+    position: relative;
+    float: left;
+    border: 1px solid grey;
+    width: 150px;
+    height: 100px;
+    background-color: white;
+}
+
+.hidden {
+    margin: 5px;
+    position: relative;
+    float: left;
+    border: 1px solid grey;
+    width: 150px;
+    height: 100px;
+    background-color: yellow;
+}
+
+.flagTarget {
+    max-width: 500px;
+    float: right;
+}
+
+.irland {
+    background-color: white;
+}
+
+.irland .part1 {
+    width: 50px;
+    height: 100px;
+    background-color: seagreen;
+}
+
+.irland .part2 {
+    position: absolute;
+    top: 0;
+    left: 100px;
+    width: 50px;
+    height: 100px;
+    background-color: coral;
+}
+
+.russia {
+    background-color: firebrick;
+    height: 100%;
+    width: 100%;
+}
+
+.russia .part1 {
+    width: 150px;
+    height: 33px;
+    background-color: darkblue;
+    position: absolute;
+    top: 33px;
+    bottom: 33px;
+}
+
+.russia .part2 {
+    width: 150px;
+    height: 33px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+}
+
+.sweden {
+    background-color: yellow;
+}
+
+.sweden .part1 {
+    background: mediumblue;
+    width: 40px;
+    height: 40px;
+}
+
+.sweden .part2 {
+    margin-top: 20px;
+    background: mediumblue;
+    width: 40px;
+    height: 40px;
+}
+
+.sweden .part3 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: mediumblue;
+    width: 90px;
+    height: 40px;
+}
+
+.sweden .part4 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: mediumblue;
+    width: 90px;
+    height: 40px;
+}
+
+.japan {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+
+.japan .part1 {
+    position: absolute;
+    top: 20px;
+    bottom: 20px;
+    left: 45px;
+    right: 45px;
+    background: firebrick;
+    border-radius: 50%;
+}
+
+.czech {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+
+.czech .part1 {
+    position: absolute;
+    bottom: 0;
+    background: mediumblue;
+    width: 150px;
+    height: 50px;
+    z-index: 2;
+}
+
+.czech .part2 {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-left: 75px solid red;
+    border-bottom: 50px solid transparent;
+    z-index: 2;
+}
+
+.site-footer {
+    background-color: #92d0f9;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    margin: 0 auto;
+    flex-shrink: 0;
+}
+
+.site-footer ul {
+    margin-top: 1em;
+}
+
+.site-footer li {
+    list-style: none;
+}
+
+.site-footer a {
+    font-size: 0.9em;
+    text-decoration: none;
+}
+
+.validators a:hover {
+    background-color: rgba(170, 169, 169, 0.596);
+    border-radius: 0.2em;
+}
